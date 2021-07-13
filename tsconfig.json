@@ -1,0 +1,24 @@
+{
+  "exclude" : ["*.test.ts", "jest.config.js"],
+  "include": ["src/*"],
+  "compilerOptions": {
+   
+    "target": "es5",                          
+    "module": "commonjs",                     
+    "lib": ["es6"],                           
+    "allowJs": true,                          
+    "outDir": "./build",
+    "rootDir": "./src",
+    
+    "strict": true,                           
+    "noImplicitAny": true,                    
+    "strictNullChecks": true,              
+    "strictFunctionTypes": true,           
+    "noImplicitReturns": true,             
+    "esModuleInterop": true,                  
+    
+    "resolveJsonModule": true,                
+    "skipLibCheck": true,                     
+    "forceConsistentCasingInFileNames": true  
+  }
+}
